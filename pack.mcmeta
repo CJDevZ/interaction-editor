@@ -1,0 +1,12 @@
+{
+  "pack": {
+    "description": "https://modrinth.com/project/uGoVH3N4",
+    "pack_format": 77,
+    "supported_formats": [
+      77,
+      999
+    ],
+    "min_format": 77,
+    "max_format": 999
+  }
+}

@@ -1,0 +1,1 @@
+return run function interaction-editor:ie/zzz/check_is_ie_1 with entity @s SelectedItem.components."minecraft:custom_data"

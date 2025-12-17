@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "item": {
+      "trigger": "using_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "gamemode": [
+              "creative"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "interaction-editor:ie/right_click"
+  }
+}

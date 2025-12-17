@@ -1,0 +1,2 @@
+$execute if predicate interaction-editor:is_sprinting rotated as @s as $(ie_editor) facing ^ ^ ^-1 positioned as @s run function interaction-editor:ie/zzz/move
+$execute unless predicate interaction-editor:is_sprinting rotated as @s as $(ie_editor) positioned as @s run function interaction-editor:ie/zzz/move

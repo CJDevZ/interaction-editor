@@ -1,0 +1,3 @@
+$execute unless data entity @n[type=interaction,nbt={interaction:{player:$(UUID)}}] data.ie.interact_action run return fail
+$execute at @n[type=interaction,nbt={interaction:{player:$(UUID)}}] run function interaction-editor:ie/zzz/run_interaction with entity @n[type=interaction,nbt={interaction:{player:$(UUID)}}] data.ie
+$data remove entity @n[type=interaction,nbt={interaction:{player:$(UUID)}}] interaction

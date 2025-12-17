@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "item": {
+      "trigger": "player_interacted_with_entity"
+    }
+  },
+  "rewards": {
+    "function": "interaction-editor:ie/interact"
+  }
+}

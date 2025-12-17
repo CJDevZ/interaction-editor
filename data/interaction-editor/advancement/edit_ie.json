@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "item": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "gamemode": [
+              "creative"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "interaction-editor:ie/edit_ie"
+  }
+}
